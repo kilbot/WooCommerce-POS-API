@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WC_POS\Admin\Settings\Page</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Overview</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="namespace-WC_POS.Admin.Settings.html" title="Summary of WC_POS\Admin\Settings"><span>Namespace</span></a>
+					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+					<li>
+						<a href="namespace-None.html">
+							None						</a>
+							</li>
+					<li class="active">
+						<a href="namespace-WC_POS.html">
+							WC_POS<span></span>
+						</a>
+							<ul>
+					<li class="active">
+						<a href="namespace-WC_POS.Admin.html">
+							Admin<span></span>
+						</a>
+							<ul>
+					<li class="active">
+						<a href="namespace-WC_POS.Admin.Settings.html">
+							Settings<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="namespace-WC_POS.Admin.Settings.Receipt.html">
+							Receipt						</a>
+							</li>
+								</ul></li></ul></li>
+					<li>
+						<a href="namespace-WC_POS.API.html">
+							API						</a>
+							</li>
+					<li>
+						<a href="namespace-WC_POS.Gateways.html">
+							Gateways						</a>
+							</li>
+					<li>
+						<a href="namespace-WC_POS.Integrations.html">
+							Integrations						</a>
+							</li>
+					<li>
+						<a href="namespace-WC_POS.Products.html">
+							Products						</a>
+							</li>
+								</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WC_POS.Admin.Settings.Access.html">Access</a></li>
+				<li><a href="class-WC_POS.Admin.Settings.Checkout.html">Checkout</a></li>
+				<li><a href="class-WC_POS.Admin.Settings.Customers.html">Customers</a></li>
+				<li><a href="class-WC_POS.Admin.Settings.Gateways.html">Gateways</a></li>
+				<li><a href="class-WC_POS.Admin.Settings.General.html">General</a></li>
+				<li><a href="class-WC_POS.Admin.Settings.HotKeys.html">HotKeys</a></li>
+				<li class="active"><a href="class-WC_POS.Admin.Settings.Page.html">Page</a></li>
+				<li><a href="class-WC_POS.Admin.Settings.Receipts.html">Receipts</a></li>
+				<li><a href="class-WC_POS.Admin.Settings.Status.html">Status</a></li>
+				<li><a href="class-WC_POS.Admin.Settings.Tools.html">Tools</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class Page</h1>
+
+
+
+
+
+	<div>
+		<h3>Direct known subclasses</h3>
+		<p class="elementList">
+			<code><a href="class-WC_POS.Admin.Settings.Access.html">WC_POS\Admin\Settings\Access</a></code>, 
+			<code><a href="class-WC_POS.Admin.Settings.Checkout.html">WC_POS\Admin\Settings\Checkout</a></code>, 
+			<code><a href="class-WC_POS.Admin.Settings.Tools.html">WC_POS\Admin\Settings\Tools</a></code>, 
+			<code><a href="class-WC_POS.Admin.Settings.Customers.html">WC_POS\Admin\Settings\Customers</a></code>, 
+			<code><a href="class-WC_POS.Admin.Settings.Gateways.html">WC_POS\Admin\Settings\Gateways</a></code>, 
+			<code><a href="class-WC_POS.Admin.Settings.General.html">WC_POS\Admin\Settings\General</a></code>, 
+			<code><a href="class-WC_POS.Admin.Settings.HotKeys.html">WC_POS\Admin\Settings\HotKeys</a></code>, 
+			<code><a href="class-WC_POS.Admin.Settings.Receipt.Options.html">WC_POS\Admin\Settings\Receipt\Options</a></code>, 
+			<code><a href="class-WC_POS.Admin.Settings.Receipt.Template.html">WC_POS\Admin\Settings\Receipt\Template</a></code>, 
+			<code><a href="class-WC_POS.Admin.Settings.Receipts.html">WC_POS\Admin\Settings\Receipts</a></code>, 
+			<code><a href="class-WC_POS.Admin.Settings.Status.html">WC_POS\Admin\Settings\Status</a></code>
+		</p>
+	</div>
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-WC_POS.html">WC_POS</a>\<a href="namespace-WC_POS.Admin.html">Admin</a>\<a href="namespace-WC_POS.Admin.Settings.html">Settings</a><br>
+		
+
+			<b>Located at</b> <a href="source-class-WC_POS.Admin.Settings.Page.html#16-169" title="Go to source code">admin/settings/page.php</a>
+		<br>
+	</div>
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="get_instance" id="_get_instance">
+
+			<td class="attributes"><code>
+				 public static
+				Singleton
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_instance">#</a>
+			<code><a href="source-class-WC_POS.Admin.Settings.Page.html#28-41" title="Go to source code">get_instance</a>( )</code>
+
+			<div class="description short">
+				<p>Returns the Singleton instance of this class.
+- late static binding requires PHP 5.3+</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Returns the Singleton instance of this class.
+- late static binding requires PHP 5.3+</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						Singleton
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code><a href="source-class-WC_POS.Admin.Settings.Page.html#43-44" title="Go to source code">__construct</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="__clone" id="___clone">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___clone">#</a>
+			<code><a href="source-class-WC_POS.Admin.Settings.Page.html#46-47" title="Go to source code">__clone</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="__wakeup" id="___wakeup">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___wakeup">#</a>
+			<code><a href="source-class-WC_POS.Admin.Settings.Page.html#49-50" title="Go to source code">__wakeup</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_payload" id="_get_payload">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_payload">#</a>
+			<code><a href="source-class-WC_POS.Admin.Settings.Page.html#52-63" title="Go to source code">get_payload</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="output" id="_output">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_output">#</a>
+			<code><a href="source-class-WC_POS.Admin.Settings.Page.html#65-73" title="Go to source code">output</a>( )</code>
+
+			<div class="description short">
+				<p>Output the view file</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Output the view file</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_template" id="_get_template">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_template">#</a>
+			<code><a href="source-class-WC_POS.Admin.Settings.Page.html#75-83" title="Go to source code">get_template</a>( )</code>
+
+			<div class="description short">
+				<p>Catch output and format</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Catch output and format</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="option_name" id="_option_name">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_option_name">#</a>
+			<code><a href="source-class-WC_POS.Admin.Settings.Page.html#85-91" title="Go to source code">option_name</a>( )</code>
+
+			<div class="description short">
+				<p>Return db key</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Return db key</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get" id="_get">
+
+			<td class="attributes"><code>
+				 public 
+				boolean|mixed|
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get">#</a>
+			<code><a href="source-class-WC_POS.Admin.Settings.Page.html#93-107" title="Go to source code">get</a>( <span>null <var>$key</var> = <span class="php-keyword1">null</span></span> )</code>
+
+			<div class="description short">
+				<p>Get options</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get options</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$key</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean|mixed|
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set" id="_set">
+
+			<td class="attributes"><code>
+				 public 
+				array|boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_set">#</a>
+			<code><a href="source-class-WC_POS.Admin.Settings.Page.html#109-120" title="Go to source code">set</a>( <span>array <var>$data</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$data</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array|boolean
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="delete" id="_delete">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_delete">#</a>
+			<code><a href="source-class-WC_POS.Admin.Settings.Page.html#122-128" title="Go to source code">delete</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getJSON" id="_getJSON">
+
+			<td class="attributes"><code>
+				 public 
+				mixed|string|
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getJSON">#</a>
+			<code><a href="source-class-WC_POS.Admin.Settings.Page.html#130-137" title="Go to source code">getJSON</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						mixed|string|
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_sections" id="_get_sections">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_sections">#</a>
+			<code><a href="source-class-WC_POS.Admin.Settings.Page.html#139-151" title="Go to source code">get_sections</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_defaults" id="_get_defaults">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_defaults">#</a>
+			<code><a href="source-class-WC_POS.Admin.Settings.Page.html#153-158" title="Go to source code">get_defaults</a>( )</code>
+
+			<div class="description short">
+				<p>Return setting defaults</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Return setting defaults</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="flush_local_data" id="_flush_local_data">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_flush_local_data">#</a>
+			<code><a href="source-class-WC_POS.Admin.Settings.Page.html#160-167" title="Go to source code">flush_local_data</a>( <span> <var>$data</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$data</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Properties summary</h2></div>
+			<table class="summary table table-bordered table-striped properties" id="properties">
+		<tr data-order="instance" id="$instance">
+			<td class="attributes"><code>
+				protected static 
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_POS.Admin.Settings.Page.html#18" title="Go to source code"><var>$instance</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$instance" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="defaults" id="$defaults">
+			<td class="attributes"><code>
+				protected  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_POS.Admin.Settings.Page.html#20" title="Go to source code"><var>$defaults</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$defaults" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="flush_local_data" id="$flush_local_data">
+			<td class="attributes"><code>
+				protected  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_POS.Admin.Settings.Page.html#22" title="Go to source code"><var>$flush_local_data</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$flush_local_data" class="anchor">#</a>
+					<code><span class="php-keyword1">null</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="current_user_authorized" id="$current_user_authorized">
+			<td class="attributes"><code>
+				public  
+				boolean
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_POS.Admin.Settings.Page.html#24" title="Go to source code"><var>$current_user_authorized</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$current_user_authorized" class="anchor">#</a>
+					<code><span class="php-keyword1">true</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="section_handlers" id="$section_handlers">
+			<td class="attributes"><code>
+				protected  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_POS.Admin.Settings.Page.html#26" title="Go to source code"><var>$section_handlers</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$section_handlers" class="anchor">#</a>
+					<code><span class="php-keyword1">array</span>()</code>
+				</div>
+			</td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
